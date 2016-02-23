@@ -27,8 +27,8 @@ recipes:
 # development (rails)
 - sprout-rbenv
 - sprout-ruby
-- sprout-mysql
-- sprout-postgresql
+#- sprout-mysql
+#- sprout-postgresql
 
 # apps (editors)
 - sprout-osx-apps::textmate_preferences
@@ -36,6 +36,8 @@ recipes:
 
 node_attributes:
   sprout:
+    rbenv:
+      default_ruby: 2.2.3
     git:
       domain: pivotallabs.com
       authors:
@@ -53,7 +55,7 @@ node_attributes:
       projects:
         -
           name: sprout-wrap
-          url: https://github.com/pivotal-sprout/sprout-wrap.git
+          url: https://github.com/elijah/sprout-wrap.git
     terminal:
       default_profile: 'Pro'
     settings:
@@ -65,32 +67,60 @@ node_attributes:
       tile_size: 35
       magnification: false
   homebrew:
-    formulas:
-      - ctags-exuberant
-      - ag
-      - chromedriver
-      - imagemagick
-      - node
-      - pstree
-      - qt
-      - ssh-copy-id
-      - tmux
-      - tree
-      - watch
-      - wget
-      - rbenv-binstubs
-    casks:
-      - firefox
-      - flycut
-      - rowanj-gitx
-      - github-desktop
-      - google-chrome
-      - google-drive
-      - google-hangouts
-      - macvim
-      - skype
-      - textmate
-      - vagrant
-      - virtualbox
-      - xquartz
-      - xscope
+      formulas:
+        - apg
+        - bash-completion
+        - chrome-cli
+        - chromedriver
+        - ctags-exuberant
+        - ag
+        - emacs
+        - gnupg2
+        - git-extras
+        - gpg-agent
+        - graphviz
+        - httpie
+        - imagemagick
+        - lastpass-cli
+        - node
+        - pstree
+        - qt
+        - rbenv-binstubs
+        - rbenv-gem-rehash
+        - ssh-copy-id
+        - tmux
+        - tree
+        - vim
+        - watch
+        - wget
+        - z
+      casks:
+        - 1password
+        - alfred
+        - bartender
+        - chrome-remote-desktop-host
+        - docker
+        - dropbox
+        - docker-compose
+        - rowanj-gitx
+        - github
+        - google-chrome
+        - google-hangouts
+        - hammerspoon
+        - Caskroom/versions/iterm2-beta
+        - kitematic
+        - lastpass
+        - nvalt
+        - path-finder
+        - skitch
+        - skype
+        - splashtop-personal
+        - steam
+        - textmate
+        - twitter
+        - unetbootin
+        - vlc
+        - vagrant
+        - virtualbox
+        - xquartz
+        - xscope
