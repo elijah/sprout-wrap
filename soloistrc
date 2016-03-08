@@ -85,8 +85,6 @@ node_attributes:
         - node
         - pstree
         - qt
-        - rbenv-binstubs
-        - rbenv-gem-rehash
         - ssh-copy-id
         - tmux
         - tree
@@ -107,17 +105,14 @@ node_attributes:
         - google-chrome
         - google-hangouts
         - hammerspoon
-        - Caskroom/versions/iterm2-beta
+        - iterm2
         - kitematic
         - lastpass
         - nvalt
         - path-finder
         - skitch
         - skype
-        - splashtop-personal
-        - steam
         - textmate
-        - twitter
         - unetbootin
         - vlc
         - vagrant
