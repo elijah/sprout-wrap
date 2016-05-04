@@ -73,6 +73,7 @@ node_attributes:
   homebrew:
       formulas:
         - apg
+        - argon/mas/mas
         - bash-completion
         - chrome-cli
         - chromedriver
@@ -98,26 +99,21 @@ node_attributes:
         - z
       casks:
         - 1password
-        - alfred
         - bartender
         - chrome-remote-desktop-host
         - docker
         - dropbox
         - docker-compose
         - rowanj-gitx
-        - github-desktop
         - google-chrome
-        - google-hangouts
         - hammerspoon
         - iterm2
-        - kitematic
         - lastpass
         - nvalt
         - path-finder
         - skitch
         - skype
         - textmate
-        - unetbootin
         - vlc
         - vagrant
         - virtualbox
