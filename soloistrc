@@ -74,6 +74,8 @@ node_attributes:
       formulas:
         - apg
         - argon/mas/mas
+        - aws-keychain
+        - awscli
         - bash-completion
         - chrome-cli
         - chromedriver
