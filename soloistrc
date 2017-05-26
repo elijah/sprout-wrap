@@ -72,7 +72,6 @@ node_attributes:
       magnification: false
   homebrew:
       formulas:
-        - apg
         - argon/mas/mas
         - aws-keychain
         - awscli
@@ -94,6 +93,8 @@ node_attributes:
         - pstree
         - qt
         - ssh-copy-id
+        - terraform
+        - terragrunt
         - tmux
         - tree
         - vim
@@ -109,7 +110,9 @@ node_attributes:
         - docker-compose
         - rowanj-gitx
         - google-chrome
+        - hab
         - hammerspoon
+        - hyper
         - iterm2
         - lastpass
         - nvalt
